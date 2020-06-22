@@ -1,0 +1,37 @@
+.footer {
+  background: black;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright, .socials, .contact_info {
+  color: #7d7d7d;
+}
+
+.socials {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+  }
+
+  i {
+    border: solid 1px #7d7d7d;
+    padding: 8px;
+    border-radius: 50%;
+    width: 32px;
+  }
+}
+
+.socials i:hover {
+  color: white;
+  transition: color 0.6s ease-out;
+}
